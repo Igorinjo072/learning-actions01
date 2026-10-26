@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - name: Print Greeting
-        run: Write-host "Hello World"
-      - name: Print Goodbye
-        run: Write-host "Goodbye"
+      - name: Print All
+        run: |
+              Write-host "Hello World"
+              Write-host "Goodbye"
